@@ -147,6 +147,7 @@ main {
 
 .article {
   position: relative;
+  margin: 0 auto;
   top: 35%;
   width: 40%;
   background-color: rgb(206, 218, 195);
