@@ -1,0 +1,115 @@
+.article {
+  position: relative;
+  margin: 0 auto;
+  top: 35%;
+  width: 50%;
+  background-color: rgb(206, 218, 195);
+  border-radius: 5px;
+  padding: 10px 15px;
+  opacity: 0.8;
+  min-height: 200px;
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.article__title {
+  margin-bottom: 5px;
+}
+
+.article__detail {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.article__detail__author {
+  margin-right: 10px;
+}
+
+.article__content {
+  min-height: 100px;
+}
+
+.article__editContent {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 200px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.article .btn {
+  width: 65px;
+}
+
+.article .btn__back {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(50, 134, 207);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.article .btn__back:hover {
+  background-color: #005CAF;
+  color: white;
+}
+
+.article .btn__edit {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  background-color: #ED784A;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.article .btn__edit:hover {
+  background-color: #F05E1C;
+  color: white;
+}
+
+.article .btn__send {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  background-color: #FBE251;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.article .btn__send:hover {
+  background-color: #E9CD4C;
+  color: white;
+}
+
+.article .btn__delete {
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  background-color: #CB4042;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.article .btn__delete:hover {
+  background-color: #D0104C;
+  color: white;
+}

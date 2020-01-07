@@ -1,0 +1,35 @@
+.list-group {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.list-group__item {
+  text-decoration: none;
+  color: black;
+  background-color: #B5CAA0;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  padding-left: 10px;
+  opacity: 0.7;
+  border-radius: 5px;
+  display: flex;
+}
+
+.list-group__item:first-child {
+  margin-top: 30px;
+}
+
+.list-group__item:not(:first-child) {
+  margin-top: 40px;
+}
+
+.list-group__item:hover {
+  opacity: 1;
+}
+
+.list-group__id {
+  padding-right: 10px;
+}
